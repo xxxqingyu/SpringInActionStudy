@@ -1,0 +1,28 @@
+/**
+ * 
+ */
+package soundsystem;
+import org.springframework.stereotype.Component;
+
+/**
+ * @author Administrator
+ *
+ */
+@Component
+public class SgtPeppers implements ICompactDisc {
+
+	private String title="sgt Pepper`s Lonely Hearts Club Band";
+	private String artist="The Beatles";
+	
+	/**
+	 * 
+	 */
+	public SgtPeppers() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public void play() {
+		System.out.println("Playing " + title +" by " + artist);
+	}
+
+}
