@@ -2,14 +2,10 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="com.mySpringFirst"/>
-			<item value="com.springFirst"/>
 		</list>
 		<list key="name">
-			<item value="mySpringFirst"/>
 		</list>
 		<list key="artifactId">
-			<item value="mySpringFirst"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -41,8 +37,30 @@
 		<item value="127" key="y"/>
 		<item value="590" key="height"/>
 	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
 	<section name="MavenProjectWizardArchetypePage">
 		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenDependenciesWizardPage">
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -68,9 +86,6 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
-			<item value="E:\JavaProject\Studys\mySpringBoot"/>
-			<item value="E:\JavaProject\Studys"/>
-			<item value="E:\JavaProject\Studys\"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -83,10 +98,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="springInActionStudy.springInActionStudy.Chapter04_AOP"/>
 		</list>
 		<list key="groupId">
+			<item value="springInActionStudy"/>
 		</list>
 		<list key="artifactId">
+			<item value="springInActionStudy.Chapter04_AOP"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

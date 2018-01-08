@@ -16,6 +16,6 @@ public class SampleController {
     }
 
     public static void main(String[] args) throws Exception {
-        SpringApplication.run(SampleController.class, args);
+        SpringApplication.run(SampleController.class, args) ;
     }
 }

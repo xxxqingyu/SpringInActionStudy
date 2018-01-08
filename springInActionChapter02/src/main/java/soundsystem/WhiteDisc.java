@@ -13,4 +13,9 @@ public class WhiteDisc implements ICompactDisc {
 
 	}
 
+	public void playTrack(int track) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

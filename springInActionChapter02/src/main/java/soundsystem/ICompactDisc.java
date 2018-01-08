@@ -9,4 +9,5 @@ package soundsystem;
  */
 public interface ICompactDisc {
 	void play();
+	void playTrack(int track);
 }
