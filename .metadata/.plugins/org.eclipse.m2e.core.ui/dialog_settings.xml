@@ -86,6 +86,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="E:\JavaProject\SpringInActionStudy"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -98,12 +99,14 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="springInActionStudy.springMvc"/>
 			<item value="springInActionStudy.springInActionStudy.Chapter04_AOP"/>
 		</list>
 		<list key="groupId">
 			<item value="springInActionStudy"/>
 		</list>
 		<list key="artifactId">
+			<item value="springMvc"/>
 			<item value="springInActionStudy.Chapter04_AOP"/>
 		</list>
 		<list key="projectNameTemplate">
