@@ -1,0 +1,15 @@
+package soundsystem;
+
+public class CDPlayer implements IMediaPlayer {
+
+	private ICompactDisc cd;
+	
+	public CDPlayer(ICompactDisc cd) {
+		this.cd=cd;
+	}
+
+	public void play() {
+		cd.play();
+	}
+
+}

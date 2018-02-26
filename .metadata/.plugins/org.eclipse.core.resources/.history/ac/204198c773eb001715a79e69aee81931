@@ -1,0 +1,14 @@
+package soundsystem;
+
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
+
+@Configuration
+@PropertySource("classpath:/soundsystem/app.properties")
+public class ExpressiveConfig {
+
+	public ExpressiveConfig() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

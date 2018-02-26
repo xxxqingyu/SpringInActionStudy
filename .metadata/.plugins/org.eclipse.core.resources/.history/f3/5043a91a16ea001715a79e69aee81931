@@ -1,0 +1,9 @@
+package soundsystem;
+
+public class CDPlayer implements IMediaPlayer {
+
+	public CDPlayer() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

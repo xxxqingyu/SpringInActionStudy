@@ -1,0 +1,14 @@
+package soundsystem;
+
+public class WhiteDisc implements ICompactDisc {
+
+	public WhiteDisc() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public void play() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

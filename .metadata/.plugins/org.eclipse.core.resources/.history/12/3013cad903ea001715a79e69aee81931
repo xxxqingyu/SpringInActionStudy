@@ -1,0 +1,25 @@
+/**
+ * 
+ */
+package soundsystem;
+
+/**
+ * @author Administrator
+ *
+ */
+public class SgtPeppers implements ICompactDisc {
+
+	private String title="sgt Peppers";
+	/**
+	 * 
+	 */
+	public SgtPeppers() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public void play() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

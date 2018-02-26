@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+package soundsystem;
+
+/**
+ * @author Administrator
+ *
+ */
+public class BlankDisc implements ICompactDisc {
+
+	/**
+	 * 
+	 */
+	public BlankDisc() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/* (non-Javadoc)
+	 * @see soundsystem.ICompactDisc#play()
+	 */
+	public void play() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

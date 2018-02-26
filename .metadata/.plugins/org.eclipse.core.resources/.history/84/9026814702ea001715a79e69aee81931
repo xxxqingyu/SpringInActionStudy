@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package soundsystem;
+
+/**
+ * @author Administrator
+ *
+ */
+public class SgtPeppers implements ICompactDisc {
+
+	/**
+	 * 
+	 */
+	public SgtPeppers() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

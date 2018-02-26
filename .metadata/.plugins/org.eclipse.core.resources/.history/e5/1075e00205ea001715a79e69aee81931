@@ -1,0 +1,9 @@
+package soundsystem;
+
+public class CDPlayerConfig {
+
+	public CDPlayerConfig() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

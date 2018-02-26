@@ -1,0 +1,9 @@
+package soundsystem;
+
+public class SoundSystemConfig {
+
+	public SoundSystemConfig() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

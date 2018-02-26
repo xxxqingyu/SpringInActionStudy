@@ -1,0 +1,26 @@
+/**
+ * 
+ */
+package soundsystem;
+
+/**
+ * @author Administrator
+ *
+ */
+public class SgtPeppers implements ICompactDisc {
+
+	private String title="sgt Pepper`s Lonely Hearts Club Band";
+	private String artist="The Beatles";
+	
+	/**
+	 * 
+	 */
+	public SgtPeppers() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public void play() {
+		System.out.println("playing " + title +" by " + artist);
+	}
+
+}
